@@ -20,9 +20,8 @@ class TrainOptions():
 
         # model
         parser.add_argument("--model", type=str, default='SegFormer', 
-                                choices=['DeepLab_V3plus', 'HRNet', 'FCDenseNet67', 'EfficientUNet', \
-                                         'Swin_Transformer', 'SegFormer', 'BuildFormer'])
-        parser.add_argument('-m', "--method", type=str, default='Sup+Adapmatch', \
+                                choices=['DeepLab_V3plus', 'HRNet', 'EfficientUNet', 'SegFormer'])
+        parser.add_argument('-m', "--method", type=str, default='Adaptmatch', \
                                 choices=['Sup', 'Fixmatch', 'Adaptmatch'])
 
         # optimization
