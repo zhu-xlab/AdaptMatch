@@ -1,5 +1,5 @@
 ## Datasets
 
-Please organize your datasets as：
+Please organize your datasets according the following structure：
 ./datasets/
 
