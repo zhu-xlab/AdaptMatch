@@ -1,16 +1,16 @@
 ## Datasets
+First, construct a directory 'datasets' and put all the used datasets inside.
 
-Please organize your datasets according to the following structure:
-
+Then, please organize your datasets according to the following structure:
 ```plaintext
 ./datasets/
 │
-├── images/                   # 训练集文件夹
+├── images/                  
 │   ├── img_001.jpg
 │   ├── img_002.jpg
 │   └── ...
 │   │
-├── labels/           # 类别2的图像
+├── labels/          
 │   ├── label_001.png
 │   ├── label_002.png
 │   └── ...
