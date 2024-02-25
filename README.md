@@ -1,4 +1,5 @@
-## 项目文件结构
+## Datasets
 
-以下是项目的文件结构示例：
-dataset/
+Please organize your datasets as：
+./datasets/
+
