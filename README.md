@@ -30,4 +30,6 @@ Here, in  'images/' and 'labels/', all the images and labels needs to be cropped
 
 ## Training
 You can train a model (with WHU_Roads as an example) as: 
+```plaintext
 python train.py -g 0 -m Adaptmatch --model SegFormer -d WHU_Roads -p 1 --num-iters 20000
+```
