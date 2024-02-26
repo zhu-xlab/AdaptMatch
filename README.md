@@ -33,3 +33,10 @@ You can train a model (with WHU_Roads as an example) as:
 ```plaintext
 python train.py -g 0 -m Adaptmatch --model SegFormer -d WHU_Roads -p 1 --num-iters 20000
 ```
+
+
+## Test
+After training, the model can be tested as:
+```plaintext
+python test.py --gpu 0 --method Adaptmatch --model SegFormer --dataset WHU_Roads --percent 1
+```
