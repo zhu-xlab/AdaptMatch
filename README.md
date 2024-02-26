@@ -1,9 +1,9 @@
 ## Datasets
 First, construct a directory 'datasets' and put all the used datasets inside.
 
-Then, please organize your datasets according to the following structure:
+Then, please organize your datasets according to the following structure with WHU_Roads as an example:
 ```plaintext
-./datasets/
+./datasets/WHU_Roads/
 │
 ├── images/                  
 │   ├── img_001.jpg
@@ -24,3 +24,5 @@ Then, please organize your datasets according to the following structure:
 │   ├── train_20%_unlabeled.txt
 │   ├── val.txt
 │   ├── test.txt
+```
+Here, in  'images/' and 'labels/', all the images and labels needs to be cropped to 512x512. In 'lists', 'train_percent%_labeled.txt' and 'train_percent%_unlabeled.txt' contains the paths of labeled and unlabeled image-label pairs.
