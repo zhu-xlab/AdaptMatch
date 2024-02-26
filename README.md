@@ -26,3 +26,9 @@ Then, please organize your datasets according to the following structure with WH
 │   ├── test.txt
 ```
 Here, in  'images/' and 'labels/', all the images and labels needs to be cropped to 512x512. In 'lists', 'train_percent%_labeled.txt' and 'train_percent%_unlabeled.txt' contain the paths of labeled and unlabeled image-label pairs.
+
+
+## Training
+You can train a model (with WHU_Roads as an example) as: 
+```python train.py -g 0 -m Adaptmatch --model SegFormer -d WHU_Roads -p 1 --num-iters 20000
+
