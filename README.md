@@ -28,6 +28,9 @@ Then, please organize your datasets according to the following structure with WH
 Here, in  'images/' and 'labels/', all the images and labels needs to be cropped to 512x512. In 'lists', 'train_percent%_labeled.txt' and 'train_percent%_unlabeled.txt' contain the paths of labeled and unlabeled image-label pairs.
 
 
+# Pretrained Weights
+The used SegFormer's codes and pretrained weights are from https://github.com/bubbliiiing/segformer-pytorch. Please download the weights to the directory "./checkpoints/".
+
 ## Training
 You can train a model (with WHU_Roads as an example) as: 
 ```plaintext
