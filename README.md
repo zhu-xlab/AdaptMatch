@@ -1,7 +1,5 @@
 ## Datasets
-First, construct a directory 'datasets' and put all the used datasets inside.
-
-Then, please organize your datasets according to the following structure with WHU_Roads as an example:
+First, please organize your datasets according to the following structure with WHU_Roads as an example:
 ```plaintext
 ./datasets/WHU_Roads/
 │
